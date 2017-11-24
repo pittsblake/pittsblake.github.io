@@ -5,17 +5,31 @@ body {
 nav {
     background-color: white;
     padding: 30px;
+    margin: 0px 0px 100px 0px;
+    font-family: 'Montserrat', sans-serif
 }
+
+
 
 header {
     width: 70vw;
     color: #39CCCC;
     padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-link{
+    color: black
+}
+
+.header-link:hover {
+    color: #666666
 }
 
 main {
     background-color: #F8F8F8;
     padding: 75px 0px 200px 0px;
+    font-family: 'Montserrat', sans-serif
     
 }
 
@@ -23,8 +37,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 0px 10px 5px;
-    /* border-bottom: thin solid;  */
+    padding: 10px 0px 10px 5px;   
+}
+
+.project-text{
+    font-size: 20px;
 }
 
 .row:hover {
@@ -41,6 +58,8 @@ footer{
     width: 75%;
     margin: 100px 0px;
     padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #39CCCC
 }
 
 .links {
@@ -58,6 +77,29 @@ footer{
     padding-left: 30px
 }
 
-.link-space{
-    margin-right: 20px;
+.contact-link{
+    margin-right: 30px;
+    font-size: 40px
+}
+
+.contact-link:hover{
+    color: #ccccff;
+}
+
+.email-link{
+    color: black
+} 
+
+.email-link:hover{
+    color: #666666
+}
+
+.nav-font{
+    font-size: 20px;
+    color: black;
+}
+
+.nav-font:hover{
+    color: #ccccff;
+    background-color: white;
 }
