@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    padding: 30px;
+}
+
+header {
+    width: 70vw;
+    color: #39CCCC;
+    padding: 30px;
+}
+
+main {
+    background-color: #F8F8F8;
+    padding: 75px 0px 200px 0px;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 5px;
+    /* border-bottom: thin solid;  */
+}
+
+.row:hover {
+    background-color: #ccccff;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+footer{ 
+    width: 75%;
+    margin: 100px 0px;
+    padding: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 50px 0px;
+}
+
+.work-space{
+    padding: 30px;
+}
+
+.project-space{
+    padding-left: 30px
+}
+
+.link-space{
+    margin-right: 20px;
+}
