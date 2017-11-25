@@ -45,7 +45,8 @@ main {
 }
 
 .row:hover {
-    background-color: #ccccff;
+    /* background-color: #ccccff; */
+    background-color: #39CCCC;
     color: white;
 }
 
