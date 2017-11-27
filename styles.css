@@ -104,3 +104,12 @@ footer{
     color: #ccccff;
     background-color: white;
 }
+
+i {
+    padding: 10px
+}
+
+img {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
