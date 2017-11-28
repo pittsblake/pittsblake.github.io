@@ -11,10 +11,16 @@ nav {
 }
 
 header {
-    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
     color: #39CCCC;
-    padding: 30px;
+    padding-left: 30px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    width: 70%
 }
 
 .header-link{
@@ -114,9 +120,21 @@ img {
     padding: 0px;
 }
 
+.profile-pic{
+    border-radius: 50%;
+}
+
+.image {
+   padding-right: 150px;
+}
+
 /* Tablet */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
+    .image {
+        display: none;
+    }
+
     nav {
         display: flex;
         justify-content: center;
@@ -189,7 +207,7 @@ img {
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 30px;
 
     }
 
@@ -201,7 +219,7 @@ img {
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .project-text {
