@@ -1,3 +1,4 @@
+
 body {
     background-color: white;
 }
@@ -8,8 +9,6 @@ nav {
     margin: 0px 0px 100px 0px;
     font-family: 'Montserrat', sans-serif
 }
-
-
 
 header {
     width: 70vw;
@@ -37,6 +36,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 0px 10px 5px;   
 }
 
@@ -112,4 +112,123 @@ i {
 img {
     margin: -20px -30px;
     padding: 0px;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    header{ 
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    h2 {
+        font-size: 40px;
+
+    }
+
+    .work-space {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    .project-text {
+        font-size: 15px;
+    }
+
+    main {
+        background-color: #F8F8F8;
+        padding: 50px 0px 100px 0px;
+        font-family: 'Montserrat', sans-serif    
+    }
+
+    footer { 
+        width: 100%;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* width: 50%; */
+        margin: 50px 0px;
+    }
+}
+
+
+/* Phone 500px */
+
+@media only screen and (max-width: 500px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    header{ 
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    h2 {
+        font-size: 35px;
+
+    }
+
+    .work-space {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .project-text {
+        font-size: 15px;
+    }
+
+    main {
+        background-color: #F8F8F8;
+        padding: 50px 0px 100px 0px;
+        font-family: 'Montserrat', sans-serif    
+    }
+
+    footer { 
+        width: 100%;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* width: 50%; */
+        margin: 50px 0px;
+    }
 }
